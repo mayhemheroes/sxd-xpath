@@ -1,0 +1,7 @@
+project: sxd-xpath
+target: evaluate
+
+cmds:
+  - cmd: /evaluate
+  - cmd: /evaluate_no_inst @@
+    libfuzzer: false
